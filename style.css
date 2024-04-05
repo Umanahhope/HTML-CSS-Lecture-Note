@@ -1,73 +1,108 @@
-/* default browser google DevTools  */
+/* This is type selectors */
+body{
+ background-color: rgba(10, 10, 200, 0.5);
+}
+h1
+{
+ color: blue; font-size: 2rem;
+}
 h2{
- font-size: 30px;
-color: blue;
+ color: red; font-size: 1rem;
+}
+/* this the use of id  seletor*/
+#one{
+color: aqua;
+background-color: blue;
+}
+#three{
+color: lime;
+background-color: violet;
+}
+/* this is clas selector */
+.two{ color: brown;
+ background-color:blue;
 
 }
-/* calc() */
-.navbar{
- background: blue;
- color: white;
- height: 100px;
- font-size: 3rem;
-  margin: 0;
-}
-
- .empty{
- background: brown;
- min-height:50vh;
- margin: 0;
-}
-/* fornt family */
-h1{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.font{
- font-family:cursive ; 
- text-indent: 10rem;
-}
-h4{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: bold;
-  font-style: italic;
-}
-.sub{
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-  font-weight: lighter;
-  font-style: oblique;
-  text-align: center;
-}
-h5{
-  font-family: inherit;
-  font-weight: 100;
-  font-style:italic;
-  text-align: right;
-  
-}
-.last{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: bolder;
-  font-style: unset;
-  text-align: right;
-}
-/* line height, letter spacing, word spacing, text transform and text decoration */
-.transform {
-  text-transform:capitalize;}
-  a {
-    font-size: 50px;
-   text-decoration: none;
-   text-decoration: line-through;
-  }
-
-
-.one{
-  line-height: 2em;
-  text-decoration: overline;
-}
-.two{
-  letter-spacing: 1em;
-}
+/* For both id and class sector */
 .three{
-  word-spacing: 5em;
-  text-decoration: underline;
+ color:orange;
+ background-color: purple;
+}
+#four{
+ background-color:red;
+}
+div{
+ color: blueviolet;
+ background-color: blanchedalmond;
+}
+span{
+ text-transform:uppercase ;
+
+ /* this rgb colours 0-255 */
+}
+.four{
+color:rgb(0,0,0);
+background-color: rgb(0,0, 255);
+}
+.five{
+color: rgb(0, 255, 0);
+background-color: rgb(255, 0, 0);
+}
+.six{
+ color: rgb(215, 20,20);
+
+ background-color: rgb(2,240,30);
+}
+ /* this rgba colours 0-1 */
+
+#eight{
+color:rgb(0,0,0);
+background-color: rgba(0,0, 255,0.3);
+}
+#nine{
+color: rgb(0, 255, 0);
+background-color: rgba(255, 0, 0,0.6);
+}
+#ten{
+ color: rgb(215, 20,20);
+
+ background-color: rgba(2,240,30,0.2);
+}
+/* this is HEX values #RRGGBB */
+
+#twelve{
+color:#ffffff;
+background-color:#000000;
+}
+#thirteen{
+color:#0000ff;
+background-color:#00ff00;
+}
+
+/* to choose your favourite colour by clicking on the colour then hover your cousor to your desire colour then set. it  will come with the automatic grb(a) value*/
+#fifteen{
+ color: rgb(20, 186, 215);
+
+ background-color: rgba(24, 12, 45, 0.2);}
+ /* use coolor.com to chose matching colours and their codes */
+ #fourteen{
+ color:#7F2CCB;
+
+ background-color:#02020A;
+}
+
+#seventeen{
+ color:#474935;
+
+ background-color:#1B065E;
+}
+#eighteen{
+ color:#659157;
+
+ background-color:#78290F;
+}
+#nineteen{
+ color:#AECFEB;
+
+ background-color:#E9AFA3;
 }
