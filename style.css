@@ -1,108 +1,74 @@
-/* This is type selectors */
-body{
- background-color: rgba(10, 10, 200, 0.5);
-}
-h1
-{
- color: blue; font-size: 2rem;
-}
-h2{
- color: red; font-size: 1rem;
-}
-/* this the use of id  seletor*/
-#one{
-color: aqua;
-background-color: blue;
-}
-#three{
-color: lime;
-background-color: violet;
-}
-/* this is clas selector */
-.two{ color: brown;
- background-color:blue;
-
-}
-/* For both id and class sector */
-.three{
- color:orange;
- background-color: purple;
-}
-#four{
- background-color:red;
-}
-div{
- color: blueviolet;
- background-color: blanchedalmond;
-}
-span{
- text-transform:uppercase ;
-
- /* this rgb colours 0-255 */
-}
-.four{
-color:rgb(0,0,0);
-background-color: rgb(0,0, 255);
-}
-.five{
-color: rgb(0, 255, 0);
-background-color: rgb(255, 0, 0);
-}
-.six{
- color: rgb(215, 20,20);
-
- background-color: rgb(2,240,30);
-}
- /* this rgba colours 0-1 */
-
-#eight{
-color:rgb(0,0,0);
-background-color: rgba(0,0, 255,0.3);
-}
-#nine{
-color: rgb(0, 255, 0);
-background-color: rgba(255, 0, 0,0.6);
-}
-#ten{
- color: rgb(215, 20,20);
-
- background-color: rgba(2,240,30,0.2);
-}
-/* this is HEX values #RRGGBB */
-
-#twelve{
-color:#ffffff;
-background-color:#000000;
-}
-#thirteen{
-color:#0000ff;
-background-color:#00ff00;
+/* "*" closes all the space on yhe webpage*/
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 
-/* to choose your favourite colour by clicking on the colour then hover your cousor to your desire colour then set. it  will come with the automatic grb(a) value*/
-#fifteen{
- color: rgb(20, 186, 215);
-
- background-color: rgba(24, 12, 45, 0.2);}
- /* use coolor.com to chose matching colours and their codes */
- #fourteen{
- color:#7F2CCB;
-
- background-color:#02020A;
+/* absolute value (px) */
+h1{
+ font-size:60px;
+ width:300px;
+ background:#ff0000;
+ height: 300px;
+}
+/* example on border and width */
+p{
+ width: 200px;
+ background: #00ff00;
+ border: solid black;
+}
+/* percentage/relative value */
+.parent{
+ width: 500px;
+ height: 500px;
+ background: rgba(0, 0, 0, 0.757);
+}
+.child{
+ width: 60%;
+ height: 50%;
+ background: rgba(41, 4, 111, 0.757);
+}
+h4{font-size: 2em;
+}
+h5{font-size: 32px;
+}
+/* em depends on the parent container while rem does not... */
+i{
+ background: #0000ff;
+}
+.container{
+ font-size: 0.1em;
 }
 
-#seventeen{
- color:#474935;
-
- background-color:#1B065E;
+h6{
+ font-size:2em;
+ 
 }
-#eighteen{
- color:#659157;
-
- background-color:#78290F;
+h7{
+ font-size:2rem;
 }
-#nineteen{
- color:#AECFEB;
-
- background-color:#E9AFA3;
+.banner{
+ font-size: 2rem;
+ width: 50vw;
+ height: 50vw;
+ background: #2d20478b;
+  /* margin: 0;  */
+ /* padding:0; */
+ /* box-sizing: border-box; */
 }
+.header{
+ font-size: 2rem;
+ width: 100vw;
+ height: 100vw;
+ background: #00fff774;
+  /* margin: 0;  */
+ /* padding: 0; */
+ /* box-sizing: border-box; */
+
+}
+/* *{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+} */
