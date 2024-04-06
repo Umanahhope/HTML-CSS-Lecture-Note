@@ -1,55 +1,55 @@
-/* css box model */
-
-/* *{
- margin:0;
+/* outline offset */
+/* body{
+ text-align: center;
 } */
-/* margin is te space b/w the leters and the top of your frame or colored box */
-h1{
- background: red;
- padding-top: 40px;
- padding-bottom: 30px;
- padding-left: 10px;
- padding-right: 60px;
- margin-top: 0;
- margin-bottom: 0;
- margin-right: 20px;
+.one{
+ margin: 6%;
+}
+a{
+  background: #ff0000;
+ padding: 20PX;
+ text-transform:uppercase ;
+ color:rgb(0, 0, 0);
+ text-decoration: none;
+ cursor: pointer;
+ margin: 10px 20px;
 
 }
-/* paddind,margin and border short cut in play */
-p{
+.nooutline{
+ border: 10px 15px;
+ border-style: solid;
+ border-color: black;
+}
+.outline{
+ outline:10px 15px;
+ outline-style:solid;
+ outline-color: black;
+ outline-offset: 10px;
+}
+.offset{
+ outline:10px 15px;
+ outline-style:solid;
+ outline-color: black;
+ outline-offset:-10px;
+}
+
+/* default display property (block): block alway start anew line and it also takes full width while 
+(inline): inline does not start a new line only take as much as content space */
+.block{
  background: blue;
- padding: 50px;
- margin-top: 0;
-
- /* padding: 50px 30px; */
- /* padding: 50px 30px 70px 10px; */
- border: 9px solid yellow;
+ color: white;
+ /* display: inline; */
+ width: 150px;
+ margin:5px auto;
 }
-/* margin the spece b/w the frame and the sides of the screen */
-h2{
- background: green;
-  margin-top: 0px;
- margin-bottom: 0px;
- margin-left: 10px;
- margin-right: 60px;      
- border-top-style: dashed;
- border-top-width:10px ;
- border-top-color:red;
+.inline{
+ background:red;
+ color: white;
+ /* display:block ; */
+
+}
+.center{
+ text-align: center;
+}
+
  
-}
-h3{
- background:rgba(18, 33, 152, 0.39);
- border-style: solid;
- border-width: 10px;
- border-color: palevioletred;
- margin-top: 0;
-
-}
-h4{
- background: #68647032;
- border-width: 13px;
- border-style: solid;
- border-color: aqua;
- border-radius:20px;
- margin-top: -35px;
-}
