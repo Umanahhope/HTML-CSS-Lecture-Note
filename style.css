@@ -1,21 +1,55 @@
+/* css box model */
 
-*{
- margin: 0;
- 
+/* *{
+ margin:0;
+} */
+/* margin is te space b/w the leters and the top of your frame or colored box */
+h1{
+ background: red;
+ padding-top: 40px;
+ padding-bottom: 30px;
+ padding-left: 10px;
+ padding-right: 60px;
+ margin-top: 0;
+ margin-bottom: 0;
+ margin-right: 20px;
+
 }
-.navbar{
+/* paddind,margin and border short cut in play */
+p{
  background: blue;
- color: white;
- height: 100px;
- font-size: 3rem;
+ padding: 50px;
+ margin-top: 0;
+
+ /* padding: 50px 30px; */
+ /* padding: 50px 30px 70px 10px; */
+ border: 9px solid yellow;
+}
+/* margin the spece b/w the frame and the sides of the screen */
+h2{
+ background: green;
+  margin-top: 0px;
+ margin-bottom: 0px;
+ margin-left: 10px;
+ margin-right: 60px;      
+ border-top-style: dashed;
+ border-top-width:10px ;
+ border-top-color:red;
  
 }
- .empty{
- background: brown;
- min-height:calc(100vh - 100px);
- }
- .p{
-  color: blueviolet;
-  background:bisque ;
-  height: 100px;
- }
+h3{
+ background:rgba(18, 33, 152, 0.39);
+ border-style: solid;
+ border-width: 10px;
+ border-color: palevioletred;
+ margin-top: 0;
+
+}
+h4{
+ background: #68647032;
+ border-width: 13px;
+ border-style: solid;
+ border-color: aqua;
+ border-radius:20px;
+ margin-top: -35px;
+}
