@@ -1,47 +1,111 @@
 *{
- margin: 0;
- padding: 0;
- box-sizing:border-box;
-}
-div{
- height: 300px;
- width: 30.10%;
- float: left;
- text-align: center;
- justify-content: center;
- align-items: center;
- display: flex;
-
+ margin:10px 0;
 }
 .one{
- background: red;
-
+ border: 5px solid;
+ border-color: aqua;
+ padding: 10px;
+ margin: 0;
 }
-.two{
- background:blue;
-
+img{
+ float: left;
 }
-.three{
- background: green;
-}
-h1{
+p{
  clear: left;
 }
-.position{
- border: 2px, solid black;
- background-color: aquamarine;
-width: 100%;
-height: 100px;
+.two{
+ border: 5px solid red;
+}
+.img-two{
+ margin: 10px;
+ height: 45px;
+}
+.p-one{
+ margin: 10px;
+ clear: right;
+}
+.three{
+ border: 5px solid black;
+ padding: 5px;
+}
+.first{
+ float: right;
+}
+.second{
+ float: left;
+}
+.p-two{
+ clear: both;
+}
+.four{
+ border: 5px solid black;
+ padding: 5px;
+}
+.told{
+ float: right;
+ height: 80px;
+}
+ /* .untold{
+ float: right;
+}  */
+.p-three{
+ margin-right: 20px;
+ 
+
+}
+.children{
+ /* margin: 5px;
+ box-sizing: border-box;
+ padding: 5px;
+ border: 5px solid black;
+ min-height: 73vh; */
+ height: 400px;
+width: 31.49%;
+float: left;
+
 }
 .hope{
-background-color: blue;
-
+background: red;
+/* height: 200px;
+width: 31.49%; */
+/* border: 5px solid black;
+float: left; */
+text-align: center;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+  height: 400px;
+  width: 33.3%;
+  float: left;
+ /* margin: 2px; */
 }
 .brian{
-background-color: green;
-
+background: blue;
+/* height: 200px;
+width: 31.45%;
+border: 5px solid black;
+float: left; */
+text-align: center;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+  height: 400px;
+  width: 33.3%;
+  float: left;
+ /* margin: 2px; */
 }
-span{
- background-color:rosybrown ;
- font: 20px;
+.nelson{
+background: green;
+/* height: 200px;
+width: 31.49%;
+border: 5px solid black;
+float: left; */
+text-align: center;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+  height: 400px;
+  width: 33.3%;
+  float: left;
+ /* margin: 2px; */
 }
