@@ -1,94 +1,96 @@
-/* position relative */
-div{
-
- background-color:yellow;
-margin-top: 40px;
-border: 3px solid red;
-}
-.hope{
-background-color: blue;
-position: relative;
-top:35px;
-right: 200px;
-left:5px ;
-bottom: 2px;
-
-}
-.brian{
-background-color: green;
-
-}
-span{
- background-color:rosybrown ;
- font-size: 20px;
-}
-.rex{
-background-color: blue;
-/* position: relative;
-top:35px;
-right: 200px;
-left:5px ;
-bottom: 2px; */
-
-}
-.gabriel{
-background-color:purple;
-position: relative;
-top:35px;
-right: 200px;
-left:5px ;
-bottom: 2px;
-/* position: static; */
-
-}
-.abs{
- background-color:palegreen ;
- font-size: 20px;
- position: absolute;
- /* bottom: 0px; */
- right: 0px;
- top: 0px;
-}
-.static{
-background-color: violet;
-top:35px;
-right: 200px;
-left:5px ;
-bottom: 2px;
-/*   */
-
-}
-.robin{
- background-color:red;
- font-size: 20px;
- 
- /* bottom: 0px; */
- right: 0px;
- top: 0px;
-}
-.vicky{
- background: mediumseagreen;
- position:relative;
- right: 50%;
- top: 0px;
-}
- .sta{
-  position: absolute;
-  top: 0%;
-  right: 0px;
- }
-.fixed{
- background: white;
- border: none;
-}
-button{
- font-size: 50px;
- background: red;
- color: white;
- border-radius: 30px;
- position: fixed;
- top: 0;
- left: 0;
-
+/* background attachement */
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 
+.big{
+ background: url(./image/house\ blend\ coffee\ typed.jpg);
+ background-size:cover;
+ min-height: 100vh;
+ background-repeat: no-repeat;
+ align-items: center;
+ color: red;
+ text-align: center;
+ font-size: 60px;
+ justify-content: center;
+ display: flex;
+ background-attachment: fixed;
+ background-position: center;
+}
+.small{
+ background: url(./image/french\ roast\ typed.jpg);
+ background-size:cover;
+ min-height: 100vh;
+ background-repeat: no-repeat;
+ align-items: center;
+ color: red;
+ text-align: center;
+ font-size: 60px;
+ justify-content: center;
+ display: flex;
+ background-attachment: fixed;
+ background-position: center;
+}
+.normal{
+ background: url(./image/frech\ roast\ unsplash.jpg);
+ background-size:cover;
+ min-height: 100vh;
+ background-repeat: no-repeat;
+ align-items: center;
+ color: red;
+ text-align: center;
+ font-size: 60px;
+ justify-content: center;
+ display: flex;
+ background-attachment: fixed;
+ background-position: center;
+}
+/* LINEAR GRADIENT */
+.colours{
+ margin: 10px;
+ min-height: 60px;
+ border: solid;
+ width: 150px;
+ border-width: 2px;
+  /* color: aqua;
+ background-color: blue; */
+ background: linear-gradient(yellow, black, green, orange);
+}
+.colour-one{
+ margin: 10px;
+ min-height: 60px;
+ border: solid;
+ width: 150px;
+ border-width: 2px;
+ background: linear-gradient(100deg,red,green);
+}
+.colour-two{
+ margin: 10px;
+ min-height: 60px;
+ border: solid;
+ width: 150px;
+ border-width: 2px;
+ background: linear-gradient(to top, pink,purple, green,blue);
+
+}
+.colour-three{
+ margin: 10px;
+ min-height: 60px;
+ border: solid;
+ width: 150px;
+ border-width: 2px;
+ background: linear-gradient(rgba(0,220, 50, 0.2),rgba(0,220, 50, 0.8) );
+
+}
+.colour-four{
+ margin: 10px;
+ min-height: 60px;
+ border: solid;
+ width: 150px;
+ border-width: 2px;
+ background: linear-gradient(to left, rgba(0,220, 50, 0.2),rgba(0,220, 50, 0.8) );
+  
+
+}
