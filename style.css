@@ -1,40 +1,17 @@
-*{
- margin: 0;
- padding: 0;
- box-sizing:border-box;
-}
+/* position relative */
 div{
- height: 300px;
- width: 30.10%;
- float: left;
- text-align: center;
- justify-content: center;
- align-items: center;
- display: flex;
 
-}
-.one{
- background: red;
-
-}
-.two{
- background:blue;
-
-}
-.three{
- background: green;
-}
-h1{
- clear: left;
-}
-.position{
- border: 2px, solid black;
- background-color: aquamarine;
-width: 100%;
-height: 100px;
+ background-color:yellow;
+margin-top: 40px;
+border: 3px solid red;
 }
 .hope{
 background-color: blue;
+position: relative;
+top:35px;
+right: 200px;
+left:5px ;
+bottom: 2px;
 
 }
 .brian{
@@ -43,5 +20,75 @@ background-color: green;
 }
 span{
  background-color:rosybrown ;
- font: 20px;
+ font-size: 20px;
 }
+.rex{
+background-color: blue;
+/* position: relative;
+top:35px;
+right: 200px;
+left:5px ;
+bottom: 2px; */
+
+}
+.gabriel{
+background-color:purple;
+position: relative;
+top:35px;
+right: 200px;
+left:5px ;
+bottom: 2px;
+/* position: static; */
+
+}
+.abs{
+ background-color:palegreen ;
+ font-size: 20px;
+ position: absolute;
+ /* bottom: 0px; */
+ right: 0px;
+ top: 0px;
+}
+.static{
+background-color: violet;
+top:35px;
+right: 200px;
+left:5px ;
+bottom: 2px;
+/*   */
+
+}
+.robin{
+ background-color:red;
+ font-size: 20px;
+ 
+ /* bottom: 0px; */
+ right: 0px;
+ top: 0px;
+}
+.vicky{
+ background: mediumseagreen;
+ position:relative;
+ right: 50%;
+ top: 0px;
+}
+ .sta{
+  position: absolute;
+  top: 0%;
+  right: 0px;
+ }
+.fixed{
+ background: white;
+ border: none;
+}
+button{
+ font-size: 50px;
+ background: red;
+ color: white;
+ border-radius: 30px;
+ position: fixed;
+ top: 0;
+ left: 0;
+
+}
+
