@@ -1,24 +1,51 @@
-body{
- background: yellow;
+/* z-index --- z-axis
+position: static---- does not work */
+img{
+ width: 100px;
+ height: 100px;
+position: absolute;
 }
-.hope{
- background: blue;
+.banner{
+ border: 5px solid red;
+ height:80vh;
+ width: 70vw;
+ margin: 5px;
+ position: relative; 
 }
-h1{
- text-align: center;
- text-transform: capitalize;
- text-decoration: underline;
- color: white;
+.one{
+ top: 0;
+ left: 0;
 }
-@media screen and (min-width:600px) { 
- body{
-  background: red;
- }
- .hope{
-  background: orange;
- }
- h1{
-  color: blueviolet;
-  font-size: 6 0px;
- }
+.two{
+ top: 10%;
+ left: 10%;
+ z-index: 2;
 }
+.three{
+ top: 20px;
+ left:  20px;
+ z-index: 1;
+ /* pseudo element ::before ::after CONTENT not element 
+ content:"----  required 
+ img--- does not work*/
+}
+p::before{
+ content: "before"; 
+ text-transform: uppercase;
+ color: cadetblue;
+ font-size: 30px;
+ font-weight: bold; 
+ /* display: block;
+ background: orange; */
+ 
+}
+p::after{
+ content: "after"; 
+ text-transform: uppercase;
+ color: maroon;
+ font-size: 30px;
+ font-weight: bold;
+ display: block;
+ background: orange;
+}
+ 
