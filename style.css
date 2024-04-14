@@ -1,51 +1,11 @@
-/* z-index --- z-axis
-position: static---- does not work */
+div{
+ border:5px solid blueviolet;
+ width: 60vw;
+ /* height: 30vh  ; */
+ margin: 100px auto;
+}
 img{
- width: 100px;
- height: 100px;
-position: absolute;
-}
-.banner{
- border: 5px solid red;
- height:80vh;
- width: 70vw;
- margin: 5px;
- position: relative; 
-}
-.one{
- top: 0;
- left: 0;
-}
-.two{
- top: 10%;
- left: 10%;
- z-index: 2;
-}
-.three{
- top: 20px;
- left:  20px;
- z-index: 1;
- /* pseudo element ::before ::after CONTENT not element 
- content:"----  required 
- img--- does not work*/
-}
-p::before{
- content: "before"; 
- text-transform: uppercase;
- color: cadetblue;
- font-size: 30px;
- font-weight: bold; 
- /* display: block;
- background: orange; */
- 
-}
-p::after{
- content: "after"; 
- text-transform: uppercase;
- color: maroon;
- font-size: 30px;
- font-weight: bold;
+ width: 100%;
+ height: 100% ;
  display: block;
- background: orange;
 }
- 
