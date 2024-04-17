@@ -1,53 +1,60 @@
-/* 
-transform: translate(), scale(), rotate(), skew() 
-*/
+/*
+transition: change over time
+transition-property:
+transition-duration 
+ */
 
-div{
+ div{
  width: 150px;
  height: 150px;
  display: inline-block;
 }
-/* transform: translate; or translateX; or translateY; */
+div:hover{
+ background: brown;
+}
 .one{
  background: red;
- transform: translateX(50%);
-
 }
 .two{
  background: green;
- transform: translateY(-40px);
- 
 }
 .three{
  background: blue;
- transform: translate(50px,400px);
+ transition-property: background;
+ transition-duration: 4s;
 }
-/* transform:scale; or scaleY; OR scaleX;*/
 .four{
-background-color: black;
- /* transform scale make the element enlarge or reduce in size  with resp[ect to the given size and direction */
- transform: scaleX(2);
+ background: indigo;
+ transition-property: background,border-radius;
+ transition-duration: 4s, 4s;
+  /* transition-delay: 3s; */
 }
+.four:hover{
+ border-radius: 50px;
+}
+/* shorter methods  */
 .five{
- background: orange;
- transform: scaleY(0.5);
+ background: yellow;
+ transition:background 3s 2s, border-radius 5s 1s; 
+}
+.five:hover{
+ background: peru;
+ border-radius: 50%;
 }
 .six{
- background: pink;
- transform: scale(0.5, 0.5);
+ background: chartreuse;
+ transition: all 3s 4s;
 }
-.seven{
- background: indigo;
- transform: rotate(30deg);
- /* transform: rotateX(300deg);
- transform: rotateY(40deg); */
+.six:hover{
+ border-radius: 50%;
+ background: black;
 }
-.eight{
- background: silver;
- /* transform: translate(50px,300px); */
-  transform: skew(-20deg, 50deg);
-}
-.nine{
- background-color: aqua;
- transform: skewX(-18deg);
-}
+/* how the transition takes place
+transitio-timing-functions:
+transition: all 3s here 5s;
+ease = default 
+ease = slow start, fast, slow end 
+linear = same speed start to end
+ease-in = slow start
+ease-out = slow end 
+ease-in-out = slow start, fast, slow end*/
