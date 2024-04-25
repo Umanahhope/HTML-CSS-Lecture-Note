@@ -1,66 +1,24 @@
-*{
- margin: 0;
- padding:0;
- box-sizing: border-box;
+body{
+ background: yellow;
 }
-div{
-
- /* align-items: center;
- text-align: center;
-justify-content: center;
-font-size: 20px; */
-color:red;
-
+.hope{
+ background: blue;
 }
-.one{
- min-height: 100vh;
- background: url(./image/house\ blend\ coffee\ typed.jpg);
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center; 
- background-attachment: fixed;
-
- align-items: center;
- justify-content: center;
+h1{
  text-align: center;
- display: flex;
+ text-transform: capitalize;
+ text-decoration: underline;
+ color: white;
 }
- /* background-attachment: fixed; */
- .one-one{
- min-height: 100vh;
- background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./image/house\ blend\ coffee\ typed.jpg) center/cover fixed no-repeat;
- /* background-repeat: no-repeat; 
- background-size: cover;
- background-position: center; */
-
- align-items: center;
- justify-content: center;
- text-align: center;
- display: flex;
- /* background-attachment: fixed; */
-}
- 
-.two{
- min-height: 100vh;
- /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./image/frech\ roast\ unsplash.jpg) center/cover fixed no-repeat; */
- /* background: url(./image/french\ roast\ typed.jpg);
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center; */
- background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.5));
- align-items: center;
- justify-content: center;
- text-align: center;
- display: flex;
- /* background-attachment: fixed; */
-}
-.three{
- min-height: 100vh;
- font-size: 40px;
- align-items: center;
- text-align: center;
- justify-content: center;
- display: flex;
- background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./image/house\ blend\ coffee\ typed.jpg) center/cover fixed no-repeat;
- /* background:linear-gradient(rgba(240,0,0,0.3),rgba(240,0,0,0.1)), url(./image/house\ blend\ coffee\ typed.jpg); */
+@media screen and (min-width:600px) { 
+ body{
+  background: red;
+ }
+ .hope{
+  background: orange;
+ }
+ h1{
+  color: blueviolet;
+  font-size: 6 0px;
+ }
 }
