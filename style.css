@@ -1,24 +1,61 @@
+/* ID */
+
+#Heading{
+ color: green;
+ background: black;
+}
+#Subheading{
+ color: blue;
+ background: red; 
+}
+/* CLASS SELECTOR */
+ 
+.green{
+ color:green;
+}
+.blue{
+ color: blue;
+}
+#title{
+ font-size:50px ;
+}
+#lowercase{
+ text-align: lowercase;
+}
+/* DIV SPAN */
+.green{
+ color:green;
+}
+.blue{
+ color:blue ;
+ background:red;
+}
+div{
+  color:red;
+ background:grey;
+}
+span{
+  text-transform: uppercase;
+}
+/* INHERITANCE */
+/* body{
+  color: red;
+} */
 body{
- background: yellow;
+  line-height: 1.5em;
+  font-family: monospace;
 }
-.hope{
- background: blue;
+div{
+ color:blue ;
+ border: 4px solid green;
 }
-h1{
- text-align: center;
- text-transform: capitalize;
- text-decoration: underline;
- color: white;
+h2{
+ color:red ;
 }
-@media screen and (min-width:600px) { 
- body{
-  background: red;
- }
- .hope{
-  background: orange;
- }
- h1{
-  color: blueviolet;
-  font-size: 6 0px;
- }
+/* Last Rule And Specifity * Universal Selector */
+p{
+  color: blue;
+}
+p{
+  color: red;
 }
